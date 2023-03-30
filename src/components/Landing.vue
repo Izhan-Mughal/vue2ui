@@ -385,7 +385,6 @@
               indicators
               img-width="1024"
               img-height="480"
-              style="text-shadow: 1px 1px 2px #333"
               @sliding-start="onSlideStart"
               @sliding-end="onSlideEnd"
             >
@@ -398,8 +397,8 @@
                       class="rounded-circle img__testi"
                     />
                   </div>
-                  <blockquote>
-                    <p class="text-center font-italic mt-4">
+      
+                    <p class="text-center  mt-4">
                       “ dolor sit amet consectetur adipisicing elit. Consectetur
                       unde reprehenderit aperiam quaerat fugiat repudiandae
                       explicabo animi minima fuga beatae illum eligendi incidunt
@@ -408,7 +407,7 @@
                     <p class="font-weight-bold small text-center">
                       Shawn Micheal
                     </p>
-                  </blockquote>
+        
                 </div>
               </div>
               <div class="carousel-item mb-5 pb-5 pt-5">
@@ -419,8 +418,8 @@
                       class="rounded-circle img__testi"
                     />
                   </div>
-                  <blockquote>
-                    <p class="text-center font-italic mt-4">
+            
+                    <p class="text-center  mt-4">
                       “ ipsum dolor sit amet consectetur adipisicing elit.
                       Consectetur unde reprehenderit aperiam quaerat fugiat
                       repudiandae explicabo animi minima fuga beatae illum
@@ -430,7 +429,7 @@
                     <p class="font-weight-bold small text-center">
                       David Ludroff
                     </p>
-                  </blockquote>
+
                 </div>
               </div>
               <div class="carousel-item mb-5 pb-5 pt-5">
@@ -441,8 +440,8 @@
                       class="rounded-circle img__testi"
                     />
                   </div>
-                  <blockquote>
-                    <p class="text-center font-italic mt-4">
+                  
+                    <p class="text-center  mt-4">
                       “Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Consectetur unde reprehenderit aperiam quaerat fugiat
                       repudiandae explicabo animi minima fuga beatae illum
@@ -452,7 +451,7 @@
                     <p class="font-weight-bold small text-center">
                       Roberts Sear
                     </p>
-                  </blockquote>
+             
                 </div>
               </div>
             </b-carousel>
