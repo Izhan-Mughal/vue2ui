@@ -1,0 +1,12 @@
+To the run the vue 2.0 App.
+1.Install the dependencies 
+Open the command prompt in the folder your project is installed.
+Use the command:-
+npm i
+
+2. Run your Application:-
+
+Open the command prompt in the folder of your project .
+Use the command:-
+npm run dev
+

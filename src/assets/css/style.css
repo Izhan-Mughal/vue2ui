@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;800;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.nav-link{
+    margin: 0px 8px;
+    color: #fff !important;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-toggler:focus{
+  outline: none !important;
+}
+.radius {
+  border-radius: 50px !important;
+  background: #FFFFFF;
+  box-shadow: 20px 20px 60px #bebebe45, -20px -20px 60px #ffffff40;
+  height: 400px !important;
+}
+.scrollbtn{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4285f4;
+  color: #fff !important;
+  cursor: pointer;
+  border-radius: 50%;
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  font-size: 30px !important;
+}
+.radius img {
+  border-radius: 50% !important;
+  width: 100px;
+  margin: auto;
+}
+.card__mine {
+  padding: 30px;
+  background: #f1f1f1;
+  border-radius: 5px;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  position: relative;
+  top: 0;
+  margin-bottom: 4em;
+  text-align: center;
+  padding-top: 50px;
+}
+.title__mine{
+    color: #000 !important;
+}
+.description__mine{
+    color: #00000083 !important;
+}
+.icon__div {
+    width: 80px;
+    height: 80px;
+    color: #fff !important;
+    position: absolute;
+    top: -50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4285f4;
+    -webkit-box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
+    box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
+  }
+.card__mine:hover .title__mine{
+
+  color: #fff !important;
+}
+.card__mine:hover .description__mine{
+
+  color: #fff !important;
+}
+.card__mine:hover {
+
+  color: #fff !important;
+
+  background-color: #4285f4 !important;
+}
+.card__mine:hover  .icon__div{
+  background-color: #fff;
+  color: #4285f4 !important;
+}
+.card__subscription{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 12px ;
+    height: 770px;
+    position: relative;
+}
+.position__btn{
+  position: absolute;
+  bottom: 3%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 85%;
+}
+.position__btn button{
+width: 290px !important;
+margin: auto !important;
+}
+.fs-1 {
+  font-size: 3.5rem;
+}
+.fs-2 {
+  font-size: 2.5rem;
+}
+.fs-3 {
+  font-size: 2rem;
+}
+.fs-4 {
+  font-size: 1.5rem;
+}
+.fs-5 {
+  font-size: 1rem;
+}
+.fs-6 {
+  font-size: 0.75rem;
+}
+
+.carousel-indicators li {
+  /* background: rgba(255, 255, 255, 0.4); */
+  background-color: #000 !important;
+  /* border-top: 20px solid; */
+height: 20px !important;
+width:  20px !important;
+border-radius: 50%;
+  z-index: 15;
+}
+.carousel-indicators  .active{
+  background-color: #000 !important;
+}
+.img__testi{
+  width: 90px;
+}
+@media (max-width:423px) {
+    .radius {
+        border-radius: 50px !important;
+        background: #FFFFFF;
+        box-shadow: 20px 20px 60px #bebebe45, -20px -20px 60px #ffffff40;
+        height: max-content !important;
+   
+      }
+      .card__subscription{
+        height: max-content !important;
+        padding-bottom: 58px !important;
+      }
+      .position__btn{
+        position: absolute;
+        bottom: 1%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 85%;
+      }
+}
